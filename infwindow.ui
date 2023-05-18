@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InfWindow</class>
+ <widget class="QMainWindow" name="InfWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Accounting system</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout1">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #afb3b0;</string>
+        </property>
+        <property name="text">
+         <string>Select an action</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>730</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuefefe">
+    <property name="title">
+     <string>Bank</string>
+    </property>
+    <addaction name="actionBank2"/>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menuefe">
+    <property name="title">
+     <string>Authorization</string>
+    </property>
+    <addaction name="actionAuthorization2"/>
+   </widget>
+   <widget class="QMenu" name="menuAdditional_invoice">
+    <property name="title">
+     <string>Profitable invoice</string>
+    </property>
+    <addaction name="actionProfitableInvoice2"/>
+    <addaction name="actionAdd_3"/>
+   </widget>
+   <widget class="QMenu" name="menuDirectory">
+    <property name="title">
+     <string>Directory</string>
+    </property>
+    <addaction name="actionDirectory2"/>
+   </widget>
+   <widget class="QMenu" name="menuAdditional">
+    <property name="title">
+     <string>Additional</string>
+    </property>
+    <addaction name="actionstartWin2"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExport_settings"/>
+    <addaction name="actionImport_settings"/>
+    <addaction name="actionDeleting_Project"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuefefe"/>
+   <addaction name="menuefe"/>
+   <addaction name="menuAdditional_invoice"/>
+   <addaction name="menuDirectory"/>
+   <addaction name="menuAdditional"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: white;</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionstartWin2"/>
+   <addaction name="actionBank2"/>
+   <addaction name="actionAuthorization2"/>
+   <addaction name="actionProfitableInvoice2"/>
+   <addaction name="actionDirectory2"/>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/free-icon-add-8387523.png</normaloff>:/image/res/menu/free-icon-add-8387523.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionAdd_3">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/free-icon-add-8387523.png</normaloff>:/image/res/menu/free-icon-add-8387523.png</iconset>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </action>
+  <action name="actionBank2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/bank (1).png</normaloff>:/image/res/menu/bank (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+  </action>
+  <action name="actionAuthorization2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/authorization.png</normaloff>:/image/res/menu/authorization.png</iconset>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+  </action>
+  <action name="actionProfitableInvoice2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/invoice.png</normaloff>:/image/res/menu/invoice.png</iconset>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+  </action>
+  <action name="actionDirectory2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/root-directory.png</normaloff>:/image/res/menu/root-directory.png</iconset>
+   </property>
+   <property name="text">
+    <string>Information</string>
+   </property>
+  </action>
+  <action name="actionstartWin2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/res/menu/main-menu (1).png</normaloff>:/image/res/menu/main-menu (1).png</iconset>
+   </property>
+   <property name="text">
+    <string>Start Window</string>
+   </property>
+  </action>
+  <action name="actionExport_settings">
+   <property name="text">
+    <string>Export Settings</string>
+   </property>
+  </action>
+  <action name="actionImport_settings">
+   <property name="text">
+    <string>Import Settings</string>
+   </property>
+  </action>
+  <action name="actionDeleting_Project">
+   <property name="text">
+    <string>Clear Project</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

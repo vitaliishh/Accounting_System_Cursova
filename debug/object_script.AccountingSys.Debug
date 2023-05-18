@@ -1,0 +1,13 @@
+debug/actreg.o
+debug/bankform.o
+debug/infwindow.o
+debug/invoiceform.o
+debug/main.o
+debug/reg.o
+debug/qrc_data_base.o
+debug/qrc_resource.o
+debug/moc_actreg.o
+debug/moc_bankform.o
+debug/moc_infwindow.o
+debug/moc_invoiceform.o
+debug/moc_reg.o

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>res/menu/free-icon-font-add-3914248.png</file>
+        <file>res/menu/free-icon-font-angle-left-3916912.png</file>
+        <file>res/menu/free-icon-font-angle-right-3916907.png</file>
+        <file>res/menu/free-icon-font-plus-3917757.png</file>
+        <file>res/menu/free-icon-font-refresh-3917293.png</file>
+        <file>res/menu/free-icon-font-trash-3917378.png</file>
+        <file>res/menu/authorization.png</file>
+        <file>res/menu/free-icon-add-8387523.png</file>
+        <file>res/menu/free-icon-bank-493850.png</file>
+        <file>res/menu/free-icon-plus-722230.png</file>
+        <file>res/menu/invoice.png</file>
+        <file>res/menu/root-directory.png</file>
+        <file>res/menu/bank (1).png</file>
+        <file>res/menu/bank.png</file>
+        <file>res/menu/main-menu (1).png</file>
+        <file>res/menu/main-menu.png</file>
+        <file>res/menu/Screenshot_19.png</file>
+    </qresource>
+</RCC>

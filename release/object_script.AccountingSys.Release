@@ -1,0 +1,13 @@
+release/actreg.o
+release/bankform.o
+release/infwindow.o
+release/invoiceform.o
+release/main.o
+release/reg.o
+release/qrc_data_base.o
+release/qrc_resource.o
+release/moc_actreg.o
+release/moc_bankform.o
+release/moc_infwindow.o
+release/moc_invoiceform.o
+release/moc_reg.o

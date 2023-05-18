@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/data_b">
+        <file>default_settings/acc_settings.zip</file>
+        <file>db/Exp.db</file>
+    </qresource>
+</RCC>
